@@ -5,8 +5,8 @@ import 'package:portfolio/models/project_model.dart';
 Color kGradient1 = Colors.purple;
 Color kGradient2 = Colors.pinkAccent;
 
-String imagePath = "images/1.png";
-String profileimagePath = 'images/profile.jpeg';
+String imagePath = "";
+String profileimagePath = 'assets/images/profile.jpeg';
 
 //String data to modify
 String name = "Mahmoud--Shahin";
@@ -43,21 +43,21 @@ List<Project> projectList = [
       description:
           "Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.",
       link: "https://github.com/adityathakurxd/shades",
-      imagePath: 'images/shahin.jpg'),
+      imagePath: 'assets/images/shahin.jpg'),
   Project(
-      imagePath: 'images/2.png',
+      imagePath: 'assets/images/2.png',
       name: "Fiasco",
       description:
           "Fiasco is one stop solution to help you manage Family expenses in one place!",
       link: "https://github.com/adityathakurxd/fiasco"),
   Project(
-      imagePath: 'images/profile.jpeg',
+      imagePath: 'assets/images/profile.jpeg',
       name: "Fiasco",
       description:
           "Fiasco is one stop solution to help you manage Family expenses in one place!",
       link: "https://github.com/adityathakurxd/fiasco"),
   Project(
-      imagePath: 'images/profile.jpeg',
+      imagePath: 'assets/images/profile.jpeg',
       name: "Flutter Portfolio",
       description: "A template for Portfolio",
       link: "https://github.com/adityathakurxd/flutter-portfolio")
